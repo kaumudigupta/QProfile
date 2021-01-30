@@ -4,11 +4,11 @@ I wanna thank the [Crio.do](https://www.crio.do/) for this opportunity.
 
 ---
 
-###Portfolio-Frontend 
+### Portfolio-Frontend 
 The Frontend is built using HTML5, CSS, ReactJS and Gatsby and is deployed to Netlify. 
 It interacts with the github site to fetch the profile owner’s projects using REST API.
 
-####Deployment
+#### Deployment
 1. You need to create a netlify account and then follow the commands below in your terminal to deploy:
 
 2. `netlify login` - Used to login to netify account
@@ -16,12 +16,12 @@ It interacts with the github site to fetch the profile owner’s projects using 
 3. `netlify deploy --dir=public --prod` - Used to deploy the app. 
 ---
 
-###Portfolio-Backend
+### Portfolio-Backend
 The Backend is built using ExpressJS and is deployed to Heroku. 
 It interacts with the Frontend using REST API and stores the contact details sent from the Frontend in a Database.
 
 
-####Deployment
+#### Deployment
 
 1. You need to create an app on your heroku account.
 2. After that use the folowing steps : 
